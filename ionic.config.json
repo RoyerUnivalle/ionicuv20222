@@ -1,0 +1,7 @@
+{
+  "name": "ionicuv20222",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
