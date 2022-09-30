@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tab4</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+ <input type="text" name="name" [ngModel]="name">
+ {{name}}
+   <ion-card>
+    <ion-item *ngFor="let item of data" class="ion-activated">
+      <ion-icon name="wifi" slot="start"></ion-icon>
+      <ion-label>{{ item.nombre_evento }}</ion-label>
+    </ion-item>
+  </ion-card>
+
+</ion-content>
